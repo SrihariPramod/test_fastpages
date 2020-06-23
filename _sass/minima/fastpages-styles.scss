@@ -245,9 +245,10 @@ table {
 
 
 // Handling large charts on mobile devices
-//@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 800px) {
 //  /* for mobile phone and tablet devices */
-//  .output_wrapper{
-//    overflow: scroll;
-//  }
-//}
+  .output_wrapper{
+    max-width: 960px;
+    overflow: scroll;
+  }
+}
